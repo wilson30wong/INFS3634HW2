@@ -79,7 +79,7 @@ public class ItemMenuList {
                 R.drawable.salad,
                 "Greek Salad",
                 5.00,
-                "A salad with cheese, leaves, spinach, tomato and balsamic vineger",
+                "A salad with cheese, leaves, spinach, tomato and balsamic vinegar",
                 0
         ));
         itemMenus.put(9, new ItemMenu(

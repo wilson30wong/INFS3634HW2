@@ -66,12 +66,12 @@
         app:layout_constraintTop_toBottomOf="@id/itemMenuImage2" />
 
     <Button
-        android:id="@+id/plusButton"
+        android:id="@+id/minusButton"
         android:layout_width="36dp"
         android:layout_height="36dp"
-        android:text="+"
+        android:text="-"
         app:layout_constraintEnd_toStartOf="@id/itemMenuQuantity"
-        app:layout_constraintTop_toTopOf="@id/minusButton" />
+        app:layout_constraintTop_toTopOf="@id/plusButton" />
 
     <TextView
         android:id="@+id/itemMenuQuantity"
@@ -79,15 +79,15 @@
         android:layout_height="36dp"
         android:gravity="center"
         android:text="0"
-        app:layout_constraintEnd_toStartOf="@id/minusButton"
-        app:layout_constraintTop_toTopOf="@id/minusButton" />
+        app:layout_constraintEnd_toStartOf="@id/plusButton"
+        app:layout_constraintTop_toTopOf="@id/plusButton" />
 
     <Button
-        android:id="@+id/minusButton"
+        android:id="@+id/plusButton"
         android:layout_width="36dp"
         android:layout_height="36dp"
         android:layout_marginEnd="24dp"
-        android:text="-"
+        android:text="+"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@id/itemMenuPrice" />
 
@@ -96,7 +96,7 @@
         android:layout_width="136dp"
         android:layout_height="wrap_content"
         android:text="Add"
-        app:layout_constraintEnd_toEndOf="@id/minusButton"
+        app:layout_constraintEnd_toEndOf="@id/plusButton"
         app:layout_constraintTop_toBottomOf="@id/itemMenuQuantity" />
 
     <TextView
